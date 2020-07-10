@@ -1,18 +1,27 @@
 import { Component, OnInit } from '@angular/core';
-import * as $ from "jquery";
+import Swiper, { Navigation, Pagination } from 'swiper';
+Swiper.use([Navigation, Pagination]);
 
 @Component({
-  selector: 'app-home',
+  selector: 'app-home' && 'swiper',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.sass']
 })
+
 export class HomeComponent implements OnInit {
-  
-  
 
   constructor() { }
 
   ngOnInit(): void {
+
+    var galleryTop = new Swiper('.gallery-top', {
+      loop: true,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+
   }
 
 
