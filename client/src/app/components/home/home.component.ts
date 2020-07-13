@@ -14,11 +14,19 @@ export class HomeComponent implements OnInit {
 
   ngOnInit(): void {
 
-    var galleryTop = new Swiper('.gallery-top', {
+    var swiper1 = new Swiper('.swiper1', {
       loop: true,
       navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
+        nextEl: '.swiper-button-next1',
+        prevEl: '.swiper-button-prev1',
+      },
+    });
+
+    var swiper2 = new Swiper('.swiper2', {
+      loop: true,
+      navigation: {
+        nextEl: '.swiper-button-next2',
+        prevEl: '.swiper-button-prev2',
       },
     });
 
