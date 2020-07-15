@@ -1,0 +1,849 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap')
+
+$font-stack: 'Playfair Display' and 'PT Sans'
+
+
+body
+    font-family: $font-stack
+    margin: 0
+
+//DESKTOP
+
+@media(min-width: 1250px)
+
+    .swiper-container1 
+        width: 100%
+        height: 600px
+        bottom: 110px
+        background: no-repeat
+
+    .swiper-container2 
+        width: 480px
+        height: 320px
+        left: 35%
+        bottom: 75%
+        background: no-repeat
+
+
+    .swiper-slide 
+        background-size: cover
+        background-position: center
+
+    .swiper-button-next
+        color: #fff
+
+    .swiper-button-prev
+        color: #fff
+
+    .circleContent
+        display: flex
+        justify-content: center
+        height: 250px
+
+        img
+            width: 150px
+            height: 150px
+            background-size: cover
+            background-position-y: center
+            border-radius: 80px
+            float: left
+            margin: 0 20px 0 20px
+
+    .sectionOne
+        height: 800px
+
+        .background
+            background-color: lightgray
+            width: 100%
+            height: 500px
+
+            .info
+                float: left
+                width: 268px
+                margin-left: 40px
+                padding-top: 100px
+            
+            .banners
+
+                .bannerOne
+                    padding-left: 55%
+                    padding-top: 8%
+
+                    img
+                        width: 250px
+                        background-size: cover
+                        background-position-y: center
+                    
+                    .textBackground
+                        background-color: lightgray
+                        width: 250px
+                        height: 100px
+                        position: relative
+                        bottom: 21px
+
+                        .text
+                            text-align: center
+                            font-size: 13px
+                            padding-top: 5px
+                
+                .bannerTwo
+                    position: relative
+                    bottom: 550px
+                    left: 77%
+
+                    img
+                        width: 250px
+                        height: 150px
+                        background-size: cover
+                        background-position-y: center
+
+                    .textBackground
+                        background-color: lightgray
+                        width: 250px
+                        height: 100px
+                        position: relative
+                        bottom: 21px
+                        box-shadow: 0px 0px 15px 0px darkgrey
+
+                        .text
+                            text-align: center
+                            font-size: 13px
+                            padding-top: 5px
+
+                .bannerTree
+                    position: relative
+                    bottom: 550px
+                    left: 77%
+
+                    img
+                        width: 250px
+                        background-size: cover
+                        background-position-y: center
+
+                    .textBackground
+                        background-color: lightgray
+                        width: 250px
+                        height: 100px
+                        position: relative
+                        bottom: 21px
+
+                        .text
+                            text-align: center
+                            font-size: 13px
+                            padding-top: 5px
+
+            .arrow
+                position: relative
+                bottom: 830px
+                left: 100px
+                font-size: xxx-large
+
+    .sectionTwo
+        height: 450px
+
+        .background
+            background-color: lightgray
+            width: 80%
+            height: 450px
+
+            .banner
+                padding-top: 50px
+                padding-left: 50px
+
+                img
+                    width: 250px
+                    height: 355px
+                    float: left
+
+                .info
+                    width: 250px
+                    margin-left: 280px
+
+                button
+                    width: 135px
+                    height: 35px
+                    background-color: black
+                    color: white
+                    font-size: 12px
+                    border-radius: 5px
+                    border: none
+                    margin-left: 25px
+                    margin-top: 10px
+                    cursor: pointer
+
+    .instaOfBrand
+        display: flex
+        justify-content: center
+        margin: 20px
+        height: 500px
+
+        .title
+            font-size: 30px
+            text-align: center
+            margin-bottom: 55px
+
+        .posts
+            text-align: center
+
+            .post
+                float: left
+                padding-top: 100px
+                height: 300px
+
+                img
+                    width: 350px
+                    height: 300px
+                    background-size: cover
+                    background-position-y: center
+                    margin: 0 20px 0 20px
+
+                .overlay
+                    background: #040303db
+                    width: 350px
+                    height: 300px
+                    position: relative
+                    bottom: 305px
+                    color: #fff
+                    visibility: hidden
+                    opacity: 0
+                    transition: opacity .8s, visibility .8s
+                    margin: 0 20px 0 20px
+                    
+                &:hover .overlay
+                    visibility: visible
+                    opacity: 1
+                    margin: 0 20px 0 20px
+                    cursor: pointer
+
+                .text
+                    padding-top: 75px
+                    padding-left: 55px
+                    width: 250px
+
+
+
+
+//MOBILE
+
+@media(max-width: 1249px)
+    
+    .swiper-container1 
+        width: 100%
+        height: 600px
+        bottom: 110px
+        background: no-repeat
+
+    .swiper-container2 
+        width: 480px
+        height: 320px
+        left: 35%
+        bottom: 75%
+        background: no-repeat
+
+
+    .swiper-slide 
+        background-size: cover
+        background-position: center
+
+    .swiper-button-next
+        color: #fff
+
+    .swiper-button-prev
+        color: #fff
+
+    .circleContent
+        display: flow-root
+        margin-left: 40px
+            
+        img
+            width: 150px
+            height: 150px
+            background-size: cover
+            background-position-y: center
+            border-radius: 80px
+            float: left
+            margin: 10px 20px 10px 20px
+
+    .sectionOne
+        height: 800px
+
+        .background
+            background-color: lightgray
+            width: 100%
+            height: 500px
+
+            .info
+                width: 268px
+                margin-left: 40px
+                padding-top: 100px
+            
+            .bannerOne
+                position: absolute
+                right: 400px
+                bottom: -675px
+
+                img
+                    width: 250px
+                    background-size: cover
+                    background-position-y: center
+                
+                .textBackground
+                    background-color: lightgray
+                    width: 250px
+                    height: 100px
+                    position: relative
+                    bottom: 21px
+
+                    .text
+                        text-align: center
+                        font-size: 13px
+                        padding-top: 5px
+            
+            .bannerTwo
+                position: absolute
+                right: 55px
+                bottom: -410px
+
+                img
+                    width: 250px
+                    height: 150px
+                    background-size: cover
+                    background-position-y: center
+
+                .textBackground
+                    background-color: lightgray
+                    width: 250px
+                    height: 100px
+                    position: relative
+                    bottom: 21px
+                    box-shadow: 0px 0px 15px 0px darkgrey
+
+                    .text
+                        text-align: center
+                        font-size: 13px
+                        padding-top: 5px
+
+            .bannerTree
+                position: absolute
+                right: 55px
+                bottom: -880px
+
+                img
+                    width: 250px
+                    background-size: cover
+                    background-position-y: center
+
+                .textBackground
+                    background-color: lightgray
+                    width: 250px
+                    height: 100px
+                    position: relative
+                    bottom: 21px
+
+                    .text
+                        text-align: center
+                        font-size: 13px
+                        padding-top: 5px
+
+            .arrow
+                position: absolute
+                bottom: -655px
+                left: 100px
+                font-size: xxx-large
+
+    .sectionTwo
+        height: 450px
+
+        .background
+            background-color: lightgray
+            width: 80%
+            height: 450px
+
+            .banner
+                padding-top: 50px
+                padding-left: 50px
+
+                img
+                    width: 250px
+                    height: 355px
+                    float: left
+
+                .info
+                    width: 250px
+                    margin-left: 280px
+
+                button
+                    width: 135px
+                    height: 35px
+                    background-color: black
+                    color: white
+                    font-size: 12px
+                    border-radius: 5px
+                    border: none
+                    margin-left: 25px
+                    margin-top: 10px
+                    cursor: pointer
+
+    .instaOfBrand
+        display: flex
+        justify-content: center
+        margin: 20px
+        height: 500px
+
+        .title
+            font-size: 30px
+            text-align: center
+            margin-bottom: 55px
+
+        .posts
+            text-align: center
+
+            .post
+                float: left
+                padding-top: 100px
+                height: 300px
+
+                img
+                    width: 350px
+                    height: 300px
+                    background-size: cover
+                    background-position-y: center
+                    margin: 0 20px 0 20px
+
+                .overlay
+                    background: #040303db
+                    width: 350px
+                    height: 300px
+                    position: relative
+                    bottom: 305px
+                    color: #fff
+                    visibility: hidden
+                    opacity: 0
+                    transition: opacity .8s, visibility .8s
+                    margin: 0 20px 0 20px
+                    
+                &:hover .overlay
+                    visibility: visible
+                    opacity: 1
+                    margin: 0 20px 0 20px
+                    cursor: pointer
+
+                .text
+                    padding-top: 75px
+                    padding-left: 55px
+                    width: 250px
+            
+
+
+//Navbar
+//DESKTOP
+
+@media(min-width: 750px)
+
+    .mobile
+        visibility: hidden
+
+    nav
+        .logo
+            position: absolute
+            top: -52px   
+                
+            img
+                width: 260px
+
+        .icons
+            font-size: x-large
+            position: absolute
+            top: 25px
+            right: 50px
+
+            a
+                color: #fff
+                
+                i
+                    padding: 10px 35px 0 0 
+
+        background-color: #1B003D
+        width: 100%
+
+        ul
+            text-align: center
+            list-style: none
+            margin: 0
+            padding: 35px
+            
+            li
+                display: inline
+                font-size: 15px
+
+                a
+                    color: #fff
+                    padding: 14px
+                    text-decoration: none
+
+
+
+
+//MOBILE
+
+@media(max-width: 749px)
+
+    .desktop
+        visibility: hidden
+
+    .mobileDropdown
+        text-align: center
+        border: 12px solid white
+
+    .mobileDropdown #dropdown-content 
+        display: none
+  
+    .menu
+        padding: 15px 15px 15px 25px
+        font-size: 20px
+            
+        a
+            text-decoration: none
+            color: #fff
+
+    .logo
+        position: fixed
+        top: -30px  
+        left: 50px  
+                
+        img
+            max-width: 150px
+
+    .icons
+        font-size: large
+        position: absolute
+        top: 10px
+        right: 10px
+
+        a
+            color: #fff
+                
+            i
+                padding: 10px 25px 0 0 
+
+    .arrowUp
+        position: absolute
+        left: 25px
+        top: 47px
+        font-size: xx-large
+        color: #1B003D
+
+    nav
+        
+        background-color: #1B003D
+        width: 100%
+        position: fixed
+        left: 0
+        z-index: 9999
+
+        ul
+            list-style: none
+            margin: 0
+            padding: 30px 25px 30px 25px
+
+            li
+                font-size: 17px
+
+                a
+                    color: #fff
+                    padding: 14px
+                    text-decoration: none
+
+
+
+
+
+//Footer
+//DESKTOP
+
+@media(min-width: 1250px)
+    .content
+        position: relative
+        top: 140px
+        height: 250px
+        background-color: lightgray
+
+        .lineTopFooter
+            border-top: 1px solid black
+            width: 100%
+            text-align: center
+
+        .logo
+            width: 120px
+            height: 50px
+            position: relative
+            top: -25px
+
+
+        .footer
+            padding: 0 30px 30px 30px
+
+            .container  
+
+                ul
+                    list-style: none
+                    
+                    .menu
+                        padding-bottom: 20px
+                        
+                    li
+                        font-size: 20px
+
+                        a
+                            color: #000000
+                            text-decoration: none
+                            position: relative
+                            left: 40px
+
+
+            
+                .contentLeft, .contentCenter, .contentRight
+                    float: left
+                    
+
+                .contentLeft
+                    width: 25%
+
+                    .menu
+                        padding-left: 10px
+
+                    .subMenu
+                        padding-top: 30px
+                        height: 100px
+                        width: 200px
+
+                        li
+                            font-size: 15px
+                            float: left
+                            height: 25px
+                            width: 80px
+                            padding-right: 15px
+
+                            a
+                                position: relative
+                                left: 0
+                            
+
+
+                .contentCenter
+                    width: 50%
+                    
+                    .menu
+                        position: relative
+                        padding: 0
+                        
+                    form
+                        position: relative
+                        left: 40px
+                        text-align: center
+
+                        .email
+                            width: 80%
+                            border-bottom: 1px solid #000000
+                            padding-bottom: 10px
+                            padding-top: 25px
+                            color: #000000
+
+                            input
+                                border: none
+                                float: left
+                                width: 80%
+                                font-size: 24px
+                                background-color: lightgray
+
+                            a
+                                color: #000000
+                                text-decoration: none
+                        
+                        .info
+                            float: left
+                            padding-top: 30px
+                            padding-bottom: 30px
+                        
+
+                .contentRight
+                    width: 25%
+
+                    .menu
+                        padding-left: 35px
+                            
+                        .subMenu
+                            padding-top: 30px
+                            
+                            li
+                                font-size: 15px
+                                padding: 5px
+
+                                a
+                                    position: relative
+                                    left: 0
+
+                                i
+                                    padding-right: 10px
+
+
+
+
+
+
+
+
+
+//MOBILE
+
+@media(max-width: 1249px)
+    .content
+        position: relative
+        top: 140px
+        height: 250px
+        background-color: lightgray
+
+        .lineTopFooter
+            border-top: 1px solid black
+            width: 100%
+            text-align: center
+
+        .logo
+            width: 120px
+            height: 50px
+            position: relative
+            top: -25px
+
+
+        .footer
+            padding: 0 30px 30px 30px
+
+            .container  
+
+                ul
+                    list-style: none
+                    
+                    .menu
+                        padding-bottom: 20px
+                        
+                    li
+                        font-size: 20px
+
+                        a
+                            color: #000000
+                            text-decoration: none
+                            position: relative
+                            left: 40px
+
+
+            
+                .contentLeft, .contentCenter, .contentRight
+                    float: left
+                    
+
+                .contentLeft
+                    width: 25%
+
+                    .menu
+                        padding-left: 10px
+
+                    .subMenu
+                        padding-top: 30px
+                        height: 100px
+                        width: 200px
+
+                        li
+                            font-size: 15px
+                            float: left
+                            height: 25px
+                            width: 80px
+                            padding-right: 15px
+
+                            a
+                                position: relative
+                                left: 0
+                            
+
+
+                .contentCenter
+                    width: 50%
+                    
+                    .menu
+                        position: relative
+                        padding: 0
+                        
+                    form
+                        position: relative
+                        left: 40px
+                        text-align: center
+
+                        .email
+                            width: 80%
+                            border-bottom: 1px solid #000000
+                            padding-bottom: 10px
+                            padding-top: 25px
+                            color: #000000
+
+                            input
+                                border: none
+                                float: left
+                                width: 80%
+                                font-size: 24px
+                                background-color: lightgray
+
+                            a
+                                color: #000000
+                                text-decoration: none
+                        
+                        .info
+                            float: left
+                            padding-top: 30px
+                            padding-bottom: 30px
+                        
+
+                .contentRight
+                    width: 25%
+
+                    .menu
+                        padding-left: 35px
+                            
+                        .subMenu
+                            padding-top: 30px
+                            
+                            li
+                                font-size: 15px
+                                padding: 5px
+
+                                a
+                                    position: relative
+                                    left: 0
+
+                                i
+                                    padding-right: 10px
+                    
+
+
+
+        
+
+        
+
+
+                   
+
+
+
+
+
+
+
+        
+
+            
+
+
+
+
+
+

@@ -1,10 +1,8 @@
 # Sobre o repositório
 
-- Para executar o projeto `client` abra o terminal e execute:
+- Para executar o projeto:
   ```sh
-  cd client
-  npm i
-  npm start
+  Abra o arquivo INDEX.MIN, que se encontra na pasta dist.
   ```
 
 ## Considerações
@@ -14,7 +12,7 @@
 - Agradeço de coração a oportunidade e estou disponivel para contato em qualquer meio social.
 
   ```sh
-  Linguagens - TypeScript, HTML e SASS
-  Framework - Angular
-  build - Angular
+  Linguagens - JavaScript, HTML e SASS
+  toolkits - Gulp, Wisper
+  build - Minify
   ```
