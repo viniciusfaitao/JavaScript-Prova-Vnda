@@ -13,6 +13,6 @@
 
   ```sh
   Linguagens - JavaScript, HTML e SASS
-  toolkits - Gulp, Wisper
+  toolkits - Gulp, Swiper
   build - Minify
   ```
