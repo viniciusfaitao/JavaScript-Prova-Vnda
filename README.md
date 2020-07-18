@@ -5,14 +5,30 @@
   Abra o arquivo INDEX.MIN, que se encontra na pasta dist.
   ```
 
-## Considerações
+## Compilar SASS
 
-- Desktop encontra ainda alguns problemas de responsividade, tambem não consegui tempo suficiente para desenvolver o mobile, o tempo para desenvolver estava otimo, o que faltou foi eu ter tempo para conseguir ficar no pc desenvolvendo pois tive compromissos este fim de semana, porem dei o meu melhor para desenvolver ao menos o desktop.
+  ```sh
+  Abra um terminal e vá até a pasta src
+  
+  cd src
+
+  após instale o gulp e o gulp-sass
+
+  npm i gulp
+  npm i gulp-sass
+
+  finalmente, para compilar o SASS em CSS
+
+  gulp sass
+  
+  ```
+
+## Considerações
 
 - Agradeço de coração a oportunidade e estou disponivel para contato em qualquer meio social.
 
   ```sh
-  Linguagens - JavaScript, HTML e SASS
-  toolkits - Gulp, Swiper
-  build - Minify
+  Linguagens - JavaScript, HTML, SASS e CSS
+  Toolkits - Gulp, Swiper
+  Build - Minify
   ```
