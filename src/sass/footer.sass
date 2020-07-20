@@ -2,7 +2,7 @@
 //Footer
 //DESKTOP
 
-@media(min-width: 1250px)
+@media(min-width: 701px)
     .content
         position: relative
         top: 140px
@@ -137,29 +137,27 @@
 
 //MOBILE
 
-@media(max-width: 1249px)
+@media(max-width: 700px)
     .content
         position: relative
-        top: 140px
-        height: 250px
+        top: 250px
+        height: 430px
         background-color: lightgray
-        overflow: hidden
-        visibility: hidden
 
         .lineTopFooter
             border-top: 1px solid black
             width: 100%
             text-align: center
 
-        .logo
-            width: 120px
-            height: 50px
-            position: relative
-            top: -25px
+            .logoFooter
+                width: 120px
+                height: 50px
+                position: relative
+                top: -25px
 
 
         .footer
-            padding: 0 30px 30px 30px
+            padding: 0 30px 0 30px
 
             .container  
 
@@ -176,7 +174,7 @@
                             color: #000000
                             text-decoration: none
                             position: relative
-                            left: 40px
+                            left: 5px
 
 
             
@@ -185,7 +183,9 @@
                     
 
                 .contentLeft
-                    width: 25%
+                    position: absolute
+                    left: 20px
+                    bottom: 195px
 
                     .menu
                         padding-left: 10px
@@ -209,16 +209,17 @@
 
 
                 .contentCenter
-                    width: 50%
+                    position: relative
+                    bottom: -120px
                     
                     .menu
-                        position: relative
-                        padding: 0
+
                         
                     form
                         position: relative
-                        left: 40px
+                        left: 30px
                         text-align: center
+                        bottom: 35px
 
                         .email
                             width: 80%
@@ -239,20 +240,22 @@
                                 text-decoration: none
                         
                         .info
-                            float: left
                             padding-top: 30px
-                            padding-bottom: 30px
+                            position: relative
+                            left: -40px
                         
 
                 .contentRight
-                    width: 25%
+                    position: relative
+                    bottom: 305px
+                    float: right
 
                     .menu
-                        padding-left: 35px
                             
                         .subMenu
-                            padding-top: 30px
-                            
+                            padding-top: 25px
+                            padding-left: 35px
+
                             li
                                 font-size: 15px
                                 padding: 5px
